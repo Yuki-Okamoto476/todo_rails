@@ -1,7 +1,11 @@
-<h1>タスク編集</h1>
-<%= form_with model: @task do |form| %>
-  <div><%= form.label :title %></div>
-  <div><%= form.text_field :title %></div>
-  <div><%= form.submit %></div>
-<% end %>
-<%= link_to '戻る', tasks_path %>
+<h1 class="tasks-title">タスク編集</h1>
+<div class="tasks-edit-form">
+  <%= form_with model: @task do |form| %>
+    <div class="tasks-edit-form__list">
+      <%= form.label :title, class: 'tasks-edit-form__label' %>
+      <%= form.text_field :title, class: 'tasks-edit-form__input' %>
+    </div>
+    <%= form.submit class: 'tasks-edit-form__button' %>
+  <% end %>
+</div>
+<%= link_to '戻る', tasks_path, class: 'tasks-edit-back-link' %>

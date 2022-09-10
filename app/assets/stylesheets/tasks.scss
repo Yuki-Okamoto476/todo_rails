@@ -1,0 +1,56 @@
+.tasks-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tasks-index-table {
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.tasks-index-table__td {
+  padding: 10px;
+}
+
+.tasks-index-add-link {
+  display: block;
+  text-align: center;
+}
+
+.tasks-edit-form {
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tasks-edit-form__list {
+  max-width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.tasks-edit-form__input {
+  border: 1px solid #000;
+}
+
+.tasks-edit-form__button {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  background-color: orange;
+  border-radius: 0.5rem;
+  max-width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.tasks-edit-back-link {
+  display: block;
+  text-align: center;
+}
