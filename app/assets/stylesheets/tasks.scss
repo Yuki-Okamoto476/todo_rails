@@ -16,9 +16,17 @@
   padding: 10px;
 }
 
-.tasks-index-add-link {
+.tasks-index-add__button {
   display: block;
+  padding: 10px;
+  color: #fff;
+  background-color: orange;
+  border-radius: 0.5rem;
+  max-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
+  text-decoration: none;
 }
 
 .tasks-edit-form {
