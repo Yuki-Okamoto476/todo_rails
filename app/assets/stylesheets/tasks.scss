@@ -29,24 +29,24 @@
   text-decoration: none;
 }
 
-.tasks-edit-form {
+.tasks-form {
   max-width: 640px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.tasks-edit-form__list {
+.tasks-form__list {
   max-width: 220px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
 }
 
-.tasks-edit-form__input {
+.tasks-form__input {
   border: 1px solid #000;
 }
 
-.tasks-edit-form__button {
+.tasks-form__button {
   display: block;
   padding: 10px;
   color: #fff;
@@ -58,7 +58,7 @@
   margin-bottom: 20px;
 }
 
-.tasks-edit-back-link {
+.tasks-back-link {
   display: block;
   text-align: center;
 }
